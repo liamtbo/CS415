@@ -1,0 +1,15 @@
+==99343== Memcheck, a memory error detector
+==99343== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==99343== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==99343== Command: ./part1
+==99343== 
+Invalid use: incorrect number of parameters
+==99343== 
+==99343== HEAP SUMMARY:
+==99343==     in use at exit: 0 bytes in 0 blocks
+==99343==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==99343== 
+==99343== All heap blocks were freed -- no leaks are possible
+==99343== 
+==99343== For lists of detected and suppressed errors, rerun with: -s
+==99343== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

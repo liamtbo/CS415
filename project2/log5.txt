@@ -1,0 +1,15 @@
+==100415== Memcheck, a memory error detector
+==100415== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==100415== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==100415== Command: ./part5
+==100415== 
+Invalid use: incorrect number of parameters
+==100415== 
+==100415== HEAP SUMMARY:
+==100415==     in use at exit: 0 bytes in 0 blocks
+==100415==   total heap usage: 1 allocs, 1 frees, 4,096 bytes allocated
+==100415== 
+==100415== All heap blocks were freed -- no leaks are possible
+==100415== 
+==100415== For lists of detected and suppressed errors, rerun with: -s
+==100415== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
